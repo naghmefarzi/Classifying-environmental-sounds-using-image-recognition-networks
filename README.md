@@ -1,10 +1,11 @@
 # Classifying environmental sounds using image recognition networks
-
-  *A system for automatically identifying environmental sounds like dog barking and glass breaking, which is especially useful for mobile devices.
+<ul>
+  <li>A system for automatically identifying environmental sounds like dog barking and glass breaking, which is especially useful for mobile devices.</li>
   
-  *Reduced the cost of development, representing environmental sounds as images, and use an image classification neural network when classifying images.
-  *Evaluated classification accuracy for different image representations (Spectrogram, MFCC) of environmental sounds on available datasets, [ESC-50 and ESC-10](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YDEPUT), using well‑known convolutional deep neural networks for image recognition (AlexNet).
-
+  <li>Reduced the cost of development, representing environmental sounds as images, and use an image classification neural network when classifying images.</li>
+  
+  <li>Evaluated classification accuracy for different image representations (Spectrogram, MFCC) of environmental sounds on available datasets, [ESC-50 and ESC-10](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YDEPUT), using well‑known convolutional deep neural networks for image recognition (AlexNet).</li>
+</ul>
 ## Experiment
 For resampling We used the factors: 0.6, 0.9, 1.1 and . As a result, there are four times as many audio files in the expanded datasets.
 We used two optimization methods (SGD & ADAM), code files namely Spectrogram_SGD and Spectrogram_ADAM and MFCC.
