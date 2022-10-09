@@ -4,7 +4,7 @@
   
   <li>Reduced the cost of development, representing environmental sounds as images, and use an image classification neural network when classifying images.</li>
   
-  <li>Evaluated classification accuracy for different image representations (Spectrogram, MFCC) of environmental sounds on available datasets, [ESC-50 and ESC-10](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YDEPUT), using well‑known convolutional deep neural networks for image recognition (AlexNet).</li>
+  <li>Evaluated classification accuracy for different image representations (Spectrogram, MFCC) of environmental sounds on available datasets,</li> [ESC-50 and ESC-10](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YDEPUT), using well‑known convolutional deep neural networks for image recognition (AlexNet).
 </ul>
 
 
