@@ -6,8 +6,10 @@
   
   <li>Evaluated classification accuracy for different image representations (Spectrogram, MFCC) of environmental sounds on available datasets, [ESC-50 and ESC-10](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YDEPUT), using well‑known convolutional deep neural networks for image recognition (AlexNet).</li>
 </ul>
+
+
 ## Experiment
-For resampling We used the factors: 0.6, 0.9, 1.1 and . As a result, there are four times as many audio files in the expanded datasets.
+For resampling We used the factors: 0.6, 0.9 and 1.1 . As a result, there are four times as many audio files in the expanded datasets.
 We used two optimization methods (SGD & ADAM), code files namely Spectrogram_SGD and Spectrogram_ADAM and MFCC.
 
 ## Results
